@@ -1,0 +1,107 @@
+:root{
+    --color-black:#3a365f;
+}
+
+
+
+
+
+*{
+   margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+
+
+body{
+    background: #f0f2f5;
+    font-family: 'poppis', sans-serif
+} 
+.container{
+width: min(90vw, 800px);
+margin: auto;
+}
+h2 {
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    color:var(--color-black);
+
+    font-weight: normal;
+}
+.card{
+    background: white;
+    padding: 1.5rem 1rem;
+    border-radius: 0.25rem;
+    margin-bottom: 2rem;
+
+    
+}
+
+
+
+header{background: #2d4a22;
+    padding: 2rem 0 10rem;
+    text-align: center;
+
+}
+
+
+#logo{
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+}
+#Balance #h2{
+    margin-top: -7rem;
+    color:white;
+    
+}
+
+
+.card p {font-size: 2rem;
+    line-height: 1rem;
+    margin-top: 0.5rem;
+
+    }
+    .card.total {
+        background: #49AA26;
+        color:white;
+
+    }
+    table th{
+        background: white;
+        opacity: 0.6;
+        font-weight: normal;
+        padding: 1rem 2rem;
+        text-align: left;
+        color:#969cb3;
+    }
+
+    #data-table {
+        width: 100%;
+        border-spacing: 0 0.5rem;
+
+    }
+   
+
+    table td {
+        background: rgb(255, 255, 255);
+        padding: 1rem 2rem;
+    }
+    table tr{
+        opacity: 0.7
+    }
+    table tr:hover{
+        opacity: 1;
+    }
+    td.description{
+        color:var(--dark-blue);
+    }
+    td.expense{
+        color:#e92929;
+    }
+    footer{
+        text-align: center;
+        padding: 4rem 0 2rem;
+        color: var(--dark-blue);
+        opacity: 0.6;
+    }
